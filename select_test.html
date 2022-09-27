@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .pages > h1, .pages > div {    /*pages클래스 자식태그들의 글자색 변경*/
+    color: blue;
+    }
+    
+    .pages h2 {     /*pages클래스 자손태그중 h2 배경색 변경*/
+        background-color: cadetblue;
+    }
+
+    h1 ~ div {      /*h1태그 일반형제들의 테두리 초록으로 변경*/
+    border: 1px solid red;
+    }
+
+    h1 + div {      /*h1태그 인접형제의 배경색 변경*/
+    background-color: yellow
+    }
+
+
+</style>
+
+</head>
+<body>
+    
+    <div class="pages">
+        <h1>여러가지 동물들</h1>
+        <div class="page">
+
+            <h2 id="lion">라이온</h2>
+            <p>라이온은: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi neque non, commodi officia eos maiores rerum temporibus dolores et expedita ipsa odit suscipit laboriosam tempore unde? Sunt ut totam rerum.</p>
+
+
+        </div>
+        <div class="page"></div>
+            <h2 id="rabbit">토끼</h2>
+            <p>토끼는: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis illo excepturi sequi perspiciatis error dolor obcaecati veritatis iure vero neque modi, laborum est reprehenderit? Doloribus ullam facere laborum beatae quisquam.</p>
+
+            <div class="page"></div>
+            <h2 id="버팔로">버팔로</h2>
+            <p>토끼는
+
+
+      
+    </div>
+
+</body>
+</html>

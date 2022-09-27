@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .wrapper {
+        background-color: aquamarine;
+    }
+    #logo {
+        background-color: cadetblue;
+    }
+
+    #titles{
+        color: blue;
+    }
+
+    .title2{
+        color:blueviolet;
+    }
+
+    /* 부모자식자손형제 = 가족의 개념 */
+
+    #mobile>h2 {
+        color: greenyellow;
+    }
+
+    .wrapper2 div {
+        border: 1px solid red;
+    }
+
+    #kind~div {
+        background-color: lightcoral;
+    }
+
+    #kind+div {
+        background-color: aqua;
+    }
+
+
+</style>
+
+</head>
+<body>
+
+    
+
+<h1>기본 선택자</h1>
+
+    
+<div class="wrapper">
+
+    <div id="logo">
+        <img src="사진자료.png" alt="">
+    </div>
+
+ <div id="titles">
+  <h2 class="title1">타이틀1</h2>
+  <h2 class="title2">타이틀2</h2>
+  <h2 class="title3">타이틀3</h2>
+ </div>
+
+</div>
+
+
+<h1>응용 선택자</h1>
+
+<div class="wrapper2"></div>
+<div id="mobile">
+<h2 id="kind">휴대폰 종류</h2>
+    <div class="phone">
+        <img src="핸드폰.jpg" alt="">
+    </div>
+
+    <div class="phone">
+        <img src="핸드폰2.jpg" alt="">
+    </div>
+
+    <div class="phone">
+        <img src="핸드폰3.jpg" alt="">
+    </div>
+</div>
+
+wrapper2 = <div></div>
+
+
+
+
+</body>
+</html>
